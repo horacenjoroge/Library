@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const read = document.getElementById('read').checked;
 
     // Check if pages is a valid positive integer
-    if (isNaN(pages) || pages <= 0) {
+    if ( pages <= 0) {
         alert("Please enter a valid number of pages.");
         return; // Stop processing if the input is invalid
     }
